@@ -1,11 +1,29 @@
+@import url(C:\Users\sergey.pavlov\dev\first-project\how-to-learn\styles\normalize.css);
+
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+div{
+  border: 1px solid #000;
+}
+
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -13,7 +31,50 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.logo_place_header{
+  position: absolute;
+  top: 30px;
+  left: 75px;
+  z-index: 4;
+}
+
+.logo_place_header_image{
+
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-row__title{
+  margin-left: 64px;
+  height: 756px;
+  display: flex;
+}
+
+.flex-row__title_text{
+  margin: auto 0;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+}
+
+.flex-row__image{
+
+}
+
+.i{
+position: absolute;
+right: 0;
+bottom: 0;
+}
+
+.ii{
+
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
