@@ -68,13 +68,41 @@ div{
 }
 
 .i{
-position: absolute;
-right: 0;
-bottom: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2
 }
 
 .ii{
+}
 
+.flex-row__bg{
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  z-index: 1
+}
+
+.flex-row__bg_background{
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+}
+
+.flex-row__subtitle{
+
+}
+
+.iii{
+position: absolute;
+left: 64px;
+bottom: 30px;
+}
+
+.iiii{
+font-size: 18px;
+line-height: 25px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
