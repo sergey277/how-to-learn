@@ -1,5 +1,5 @@
 div{
-  border: 1px solid #000;
+  border: 1px solid #fff;
 }
 .page {
   min-width: 1100px;
@@ -164,151 +164,22 @@ font-weight: 700;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+  z-index: 2
 }
 
-.table_cell1{
+.table_cell{
 margin-top: 60px;
 width: 250px
 }
 
-.table_cell1_heading{
+.table_cell_heading{
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
 }
 
-.table_cell1_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table_cell2{
-margin-top: 60px;
-width: 250px
-}
-
-.table_cell2_heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table_cell2_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table_cell3{
-margin-top: 60px;
-width: 250px;
-}
-
-.table_cell3_heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table_cell3_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table_cell4{
-width: 250px;
-margin-top: 60px;
-}
-
-.table_cell4_heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table_cell4_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table_cell5{
-margin-top: 60px;
-width: 250px
-}
-
-.table_cell5_heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table_cell5_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table_cell6{
-margin-top: 60px;
-width: 250px
-}
-
-.table_cell6_heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table_cell6_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table_cell7{
-margin-top: 60px;
-width: 250px
-}
-
-.table_cell7_heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table_cell7_heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table_cell7_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-} 
-
-.table_cell7_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table_cell8{
-  margin-top: 60px;
-  width: 250px
-}
-
-.table_cell8_heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700
-}
-
-.table_cell8_text{
+.table_cell_text{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -369,6 +240,76 @@ width: 250px
   font-weight: normal;
   color: #2f80ed;
 }
+
+.kaufman{
+  background-color: #1f1f1f;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.kaufman_space{
+  height: 90px
+}
+
+.kaufman_body{
+}
+
+.section-title_theme_dark{
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+.section-title__text_theme_dark{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle_theme_dark{
+  margin: 20px auto;
+  text-align: center;
+  width: 60%;
+
+}
+
+.section-subtitle__text_theme_dark{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.kaufman_triangle{
+  position: absolute;
+  top: 0;
+  right: -210px;
+}
+
+.table_theme_dark{
+  width: 1200px;
+}
+
+.table__cell_theme_dark{
+  width: 200px;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text_theme_dark{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+
+
 
 
 
