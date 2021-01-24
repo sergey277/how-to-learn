@@ -1,7 +1,6 @@
 div{
   border: 1px solid #000;
 }
-}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -77,6 +76,16 @@ line-height: 25px;
 font-weight: normal;
 }
 
+.flex-row_link{
+  display: inline-block;
+  width: 89px;
+  color: #2f80ed;
+  text-decoration: none;
+  background-image: url('C:/Users/sergey.pavlov/dev/first-project/how-to-learn/images/3.bmp'); 
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
 .content{
   border: 1px solid gray;
 }
@@ -100,7 +109,7 @@ font-weight: normal;
   margin: 30px 0 0 0;
   font-weight: normal;
   font-size: 18px;
-  color: blue;
+  color: #2f80ed;
 }
 
 .two-columns_main-text{
@@ -307,6 +316,7 @@ width: 250px
 
 .feynman{
   height: 935px;
+  border: 1px solid gray;
   background-color: #f2f2f2;
   background-image: url('C:/Users/sergey.pavlov/dev/first-project/how-to-learn/images/1.png');
   background-repeat: no-repeat;
@@ -357,6 +367,7 @@ width: 250px
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 
