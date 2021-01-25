@@ -46,14 +46,14 @@
   position: absolute;
   right: 0;
   bottom: -10px;
-  z-index: 2
+  z-index: 2;
 }
 
 .flex-row_bg{
   position: absolute;
   top: 64px;
   right: 0px;
-  z-index: 1
+  z-index: 1;
 }
 
 .flex-row_bg_background{
@@ -159,12 +159,12 @@ font-weight: 700;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  z-index: 2
+  z-index: 2;
 }
 
 .table_cell{
 margin-top: 60px;
-width: 250px
+width: 250px;
 }
 
 .table_cell_heading{
@@ -243,7 +243,7 @@ width: 250px
 }
 
 .kaufman_space{
-  height: 90px
+  height: 90px;
 }
 
 .section-title_theme_dark{
