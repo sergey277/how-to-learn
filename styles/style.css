@@ -63,15 +63,15 @@
 }
 
 .flex-row_subtitle_sub{
-position: absolute;
-left: 64px;
-bottom: 30px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
 }
 
 .flex-row_subtitle_sub_text{
-font-size: 18px;
-line-height: 25px;
-font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
 }
 
 .flex-row_link{
@@ -79,7 +79,7 @@ font-weight: normal;
   width: 89px;
   color: #2f80ed;
   text-decoration: none;
-  background-image: url('C:/Users/sergey.pavlov/dev/first-project/how-to-learn/images/3.bmp'); 
+  background-image: url('../images/3.bmp'); 
   background-repeat: no-repeat;
   background-position: 100% 50%;
 }
@@ -120,10 +120,6 @@ font-weight: normal;
 
 .two-columns_main-text_text2__bold{
   font-weight: 700;
-}
-
-.digits{
-
 }
 
 .digits-body{
@@ -187,7 +183,7 @@ width: 250px
   height: 935px;
   border: 1px solid gray;
   background-color: #f2f2f2;
-  background-image: url('C:/Users/sergey.pavlov/dev/first-project/how-to-learn/images/1.png');
+  background-image: url('../images/1.png');
   background-repeat: no-repeat;
   background-position: 0% 100%;
   position: relative;
@@ -221,7 +217,7 @@ width: 250px
 }
 
 .feynman_link{
-  background-image: url('C:/Users/sergey.pavlov/dev/first-project/how-to-learn/images/2.bmp');
+  background-image: url('../images/2.bmp');
   background-repeat: no-repeat;
   width: 270px;
   height: 50px;
@@ -248,9 +244,6 @@ width: 250px
 
 .kaufman_space{
   height: 90px
-}
-
-.kaufman_body{
 }
 
 .section-title_theme_dark{
@@ -331,6 +324,12 @@ width: 250px
   justify-content: space-between;
 }
 
+.footer__author{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .footer__column{
   display: flex;
 }
@@ -340,11 +339,17 @@ width: 250px
   flex-direction: column;
 }
 
+.footer__column-heading{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700; 
+}
+
 .footer__link4{
   display: inline-block;
   width: 110px;
   padding: 0 0 0 25px;
-  background-image: url('C:/Users/sergey.pavlov/dev/first-project/how-to-learn/images/facebook_color_white.svg');
+  background-image: url('../images/facebook_color_white.svg');
   background-repeat: no-repeat;
   background-position: 0 50%;
   line-height: 30px;
@@ -358,7 +363,7 @@ width: 250px
   display: inline-block;
   width: 110px;
   padding: 0 0 0 25px;
-  background-image: url('C:/Users/sergey.pavlov/dev/first-project/how-to-learn/images/vk_color_white.svg');
+  background-image: url('../images/vk_color_white.svg');
   background-position: 0 50%;
   background-repeat: no-repeat;
   line-height: 30px;
@@ -371,7 +376,7 @@ width: 250px
   display: inline-block;
   width: 110px;
   padding: 0 0 0 25px;
-  background-image: url('C:/Users/sergey.pavlov/dev/first-project/how-to-learn/images/instagram_color_white.svg');
+  background-image: url('../images/instagram_color_white.svg');
   background-position: 0 50%;
   background-repeat: no-repeat;
   line-height: 30px;
