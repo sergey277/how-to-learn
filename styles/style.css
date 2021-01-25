@@ -79,8 +79,7 @@
   width: 89px;
   color: #2f80ed;
   text-decoration: none;
-  background-image: url('../images/3.bmp'); 
-  background-repeat: no-repeat;
+  background-image: url('../images/3.bmp');background-repeat: no-repeat;
   background-position: 100% 50%;
 }
 
