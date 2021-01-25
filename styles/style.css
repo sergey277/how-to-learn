@@ -75,12 +75,13 @@
 }
 
 .flex-row_link{
+  background-image: url('../images/3.bmp');
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
   display: inline-block;
   width: 89px;
   color: #2f80ed;
   text-decoration: none;
-  background-image: url('../images/3.bmp');background-repeat: no-repeat;
-  background-position: 100% 50%;
 }
 
 .content{
