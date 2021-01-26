@@ -5,6 +5,10 @@ div{
 h1, h2, h3, h4{
   border: 1px solid #000;
 }
+
+p{
+  border: 1px solid #000;
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -109,11 +113,18 @@ h1, h2, h3, h4{
 }
 
 .two-columns__main-text{
+  margin: 30px 0 0 0;
   width: 80%;
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal
+}
+.two-columns__main-text:first-child{
+  margin-top: 0;
 }
 
 .two-columns__span-accent{
@@ -132,9 +143,10 @@ h1, h2, h3, h4{
 }
 
 .digits_body_title_text{
-line-height: 1.15;
-font-size: 60px;
-font-weight: 700;
+  margin: 100px 0 0 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .digits_body_subtitle{
@@ -145,6 +157,7 @@ font-weight: 700;
 }
 
 .digits_body_subtitle_text{
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -160,18 +173,20 @@ font-weight: 700;
   z-index: 2;
 }
 
-.table_cell{
-margin-top: 60px;
-width: 250px;
+.table__cell{
+  margin-top: 60px;
+  width: 250px;
 }
 
-.table_cell_heading{
+.table__heading{
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
 }
 
-.table_cell_text{
+.table__text{
+  margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -187,34 +202,28 @@ width: 250px;
   position: relative;
 }
 
-.feynman_title{
+.feynman__title{
   width: 648px;
   max-height: 400px;
   padding-top: 100px;
   margin: auto;
   padding-bottom: 0; 
-}
-
-.feynman_title__text{
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 700;
 }
 
-.feynman_subtitle{
+.feynman__subtitle{
   margin: 70px auto;
   text-align: center;
   width: 400px;
-}
-
-.feynman_subtitle__text{
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
 }
 
-.feynman_link{
+.feynman__link{
   background-image: url('../images/2.bmp');
   background-repeat: no-repeat;
   width: 270px;
@@ -223,6 +232,11 @@ width: 250px;
   position: absolute;
   top: 490px;
   right: 0;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
 }
 
 .feynman_link__text{
