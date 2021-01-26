@@ -41,10 +41,14 @@ h1, h2, h3, h4{
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
+  position: relative;
+  z-index: 3
 }
 
 
 .header__subtitle{
+  margin: 0;
+  padding: 0;
   width: 400px;
   position: absolute;
   left: 64px;
@@ -52,6 +56,8 @@ h1, h2, h3, h4{
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
+  position: relative;
+  z-index: 3
 }
 
 .header__link{
@@ -85,38 +91,33 @@ h1, h2, h3, h4{
   border: 1px solid gray;
 }
 .description{
-  margin: 100px 0 0 0;
+  margin: 100px 100px 0 100px;
 }
 
 .two-columns{
   border: 1px solid grey;
   display: flex;
   flex-direction: flex-row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-
-.two-columns_brief{
-  display: flex;
-  flex-direction: row;
-}
-
-.two-columns_brief_text_title{
-  margin: 30px 0 0 0;
-  font-weight: normal;
-  font-size: 18px;
+.two-columns__brief{
   color: #2f80ed;
+  width: 200px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.two-columns_main-text{
-  display: flex;
-  flex-direction: column;
-  width: 1100px;
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
 }
 
-.two-columns_main-text_text2__bold{
-  font-weight: 700;
+.two-columns__span-accent{
+  font-weight: bold;
 }
 
 .digits-body{
