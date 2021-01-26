@@ -1,4 +1,10 @@
-
+div{
+  border: 1px solid #000;
+}
+  
+h1, h2, h3, h4{
+  border: 1px solid #000;
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -14,67 +20,41 @@
   background-color: #f2f2f2;
   position: relative;
   border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
 }
 
 .logo_place_header{
   position: absolute;
   top: 30px;
-  left: 75px;
+  left: 64px;
   z-index: 4;
 }
 
-.flex-row{
-  display: flex;
-}
 
-.flex-row_title{
-  position: relative;
-  z-index: 3;
-  margin-left: 64px;
-  height: 756px;
-  display: flex;
-}
-
-.flex-row_title_text{
+.header__title{
+  padding: 0 0 0 64px;
+  width: 700px;
   margin: auto 0;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
 }
 
-.flex-row_image_header-image{
-  position: absolute;
-  right: 0;
-  bottom: -10px;
-  z-index: 2;
-}
 
-.flex-row_bg{
-  position: absolute;
-  top: 64px;
-  right: 0px;
-  z-index: 1;
-}
-
-.flex-row_bg_background{
-  width: 568px;
-  height: 568px;
-  background-color: #2f80ed;
-}
-
-.flex-row_subtitle_sub{
+.header__subtitle{
+  width: 400px;
   position: absolute;
   left: 64px;
   bottom: 30px;
-}
-
-.flex-row_subtitle_sub_text{
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
 }
 
-.flex-row_link{
+.header__link{
   background-image: url('../images/3.bmp');
   background-position: 100% 50%;
   background-repeat: no-repeat;
@@ -82,6 +62,23 @@
   width: 89px;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__main-illustration{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.header__square-pic{
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  z-index: 1;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
 }
 
 .content{
