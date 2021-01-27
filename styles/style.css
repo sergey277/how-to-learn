@@ -193,10 +193,8 @@
   padding-top: 100px;
   font-weight: 700;
   margin: auto;
-  padding-bottom: 0;
-  font-size: 120px; 
-  text-align: center;
-  line-height: 1.15;
+  padding-bottom: 0;font-size: 120px; 
+  text-align: center;line-height: 1.15;
 }
 
 .feynman__subtitle{
