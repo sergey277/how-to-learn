@@ -1,14 +1,4 @@
-div{
-  border: 1px solid #000;
-}
-  
-h1, h2, h3, h4{
-  border: 1px solid #000;
-}
 
-p{
-  border: 1px solid #000;
-}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -293,23 +283,12 @@ p{
 }
 
 .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 40px 0;
   background-color: #1f1f1f;
   color: #fff;
   border: 1px solid gray;
-}
-
-.footer_space{
-  height: 60px;
-  border: 1px solid gray;
-}
-
-.footer__columns{
-  display: flex;
-  flex-basis: 711px;
-  width: 90%;
-  height: 250px;
-  margin: auto;
-  justify-content: space-between;
 }
 
 .footer__column_content_copyright{
@@ -318,14 +297,30 @@ p{
   justify-content: space-between;
 }
 
-.footer__author{
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
+.footer__columns{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1472px;
 }
 
 .footer__column{
   display: flex;
+}
+
+.footer__column_content{
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.footer__column_content{
+  display: flex;
+}
+
+.footer__column_content_info{
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_social{
@@ -333,17 +328,38 @@ p{
   flex-direction: column;
 }
 
+.footer__author{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .footer__column-heading{
   line-height: 30px;
   font-size: 18px;
-  font-weight: 700; 
+  font-weight: bold;
+  margin: 0;
 }
 
-.footer__link4{
+.footer__column-links{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+  list-style-type: none;
+
+}
+
+.footer__social-icon{
+  list-style-type: none;
+}
+
+.footer__column-link_type_facebook{
+  background-image: url('../images/facebook_color_white.svg');
   display: inline-block;
   width: 110px;
   padding: 0 0 0 25px;
-  background-image: url('../images/facebook_color_white.svg');
   background-repeat: no-repeat;
   background-position: 0 50%;
   line-height: 30px;
@@ -353,7 +369,7 @@ p{
   text-decoration: none;
 }
 
-.footer__link5{
+.footer__column-link_type_vk{
   display: inline-block;
   width: 110px;
   padding: 0 0 0 25px;
@@ -365,8 +381,9 @@ p{
   font-weight: normal;
   color: #fff;
   text-decoration: none;
+  list-style-type: none;
 }
-.footer__link6{
+.footer__column-link_type_instagram{
   display: inline-block;
   width: 110px;
   padding: 0 0 0 25px;
@@ -378,23 +395,9 @@ p{
   font-weight: normal;
   color: #fff;
   text-decoration: none;
+  list-style-type: none;
 }
 
-.footer__column-links_type_link{
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer_space2{
-  height: 40px;
-  margin: auto;
-  background-color: #1f1f1f;
-  max-width: 1600px;
-  border: 1px solid gray;
-}
 
 
 
