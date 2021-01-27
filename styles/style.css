@@ -191,10 +191,10 @@
   width: 648px;
   max-height: 400px;
   padding-top: 100px;
+  font-weight: 700;
   margin: auto;
   padding-bottom: 0;
-  font-size: 120px;
-  font-weight: 700; 
+  font-size: 120px; 
   text-align: center;
   line-height: 1.15;
 }
