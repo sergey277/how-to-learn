@@ -1,0 +1,12 @@
+.footer__column-link_type_facebook{
+  background-image: url('../images/facebook_color_white.svg');
+  display: inline-block;
+  padding: 0 0 0 25px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  text-decoration: none;
+}
