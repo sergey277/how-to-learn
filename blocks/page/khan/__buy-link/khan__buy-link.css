@@ -1,5 +1,5 @@
 .khan__buy-link{
-  inline-block;
+  display: inline-block;
   width: 250;
   height: 40px;
   padding-left: 48px;
