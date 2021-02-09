@@ -54,24 +54,11 @@
 @import url(../blocks/page/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/page/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(../blocks/page/khan/__title/khan__title.css);
-
-
-
-
-
-
-h1, h2, h3, h4{
-  border: 1px solid #000;
-}
-
-div{
-  border: 1px solid #000;
-}
-
-section{
-  border: 1px solid #000;
-}
-
+@import url(../blocks/page/resources/__logo/resources__logo.css);
+@import url(../blocks/page/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/page/video/video.css);
+@import url(../blocks/page/video/__iframes/video__iframes.css);
+@import url(../blocks/page/video/__iframe/video__iframe.css);
 
 .header {
   height: 100vh;
@@ -121,10 +108,11 @@ section{
   width: 89px;
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 2s;
 }
 
 .header__link:hover{
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 .header__main-illustration{
@@ -216,18 +204,7 @@ section{
   list-style-type: none;
 }
 
-.video{
-height: 550px;
-}
 
-.video__iframes{
-  display: flex;
-}
-
-.video__iframe{
-  width: 515px;
-  height: 316px;
-}
 
 
 
